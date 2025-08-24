@@ -92,7 +92,7 @@ def composite_function(x):
 composite_function(7)
 #144
 
-
+_________________________________________
 #Función compuesta (cuadrada y suma)
  
 def multiple_two_numbers(num1, num2):
@@ -107,6 +107,21 @@ def composite_function(x,y):
 
 composite_function(10,3)
 #18
+
+_______________________
+# Valor absoluto
+
+def absolute_value(x):
+	if x < 0: 
+		return -x
+	else:
+		return x
+
+print(absolute_value(-5))
+#5
+print(absolute_value(5))
+#5
+
 
 
 
